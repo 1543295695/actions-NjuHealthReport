@@ -5,7 +5,7 @@ on:
 #    branches:
 #      - master
   schedule:
-    - cron: '5 13,11 * * *' # GMT+8 0:01, 12:00
+    - cron: '7 0,12,13 * * *' # GMT+8 0:01, 12:00
   workflow_dispatch: # add manually button
 
 jobs:
